@@ -1,0 +1,29 @@
+{
+  "name": "real-time-chat-website",
+  "version": "1.0.0",
+  "description": "A real-time chat website using Node.js, Express, and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "chat",
+    "real-time",
+    "websockets",
+    "socket.io",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
